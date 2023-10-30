@@ -45,3 +45,6 @@ document.getElementById('underArmour').onclick = function () {
 document.getElementById('profil').onclick = function () {
   document.location.href = 'log.php';
 };
+document.getElementById('shortadidas').onclick = function () {
+  document.location.href = 'hitiProdaj/shortiPlyaj.html';
+};
