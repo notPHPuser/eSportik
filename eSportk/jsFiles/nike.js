@@ -3,11 +3,11 @@ document.getElementById('esport').onclick = function () {
 };
 
 document.getElementById('kor').onclick = function () {
-  document.location.href = 'kor.html';
+  document.location.href = 'kor.php';
 };
 
 document.getElementById('shtanni').onclick = function () {
-  document.location.href = 'shtannii.html';
+  document.location.href = 'shtannii.php';
 };
 document.getElementById('profil').onclick = function () {
   document.location.href = 'log.php';
