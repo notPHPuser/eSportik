@@ -11,7 +11,7 @@ $user = currentUser();
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Esportik</title>
   <link href="https://myfonts.ru/myfonts?fonts=aesthetic" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="cssfiles/styles.css" />
   <script src="jsFiles/app.js" defer></script>
@@ -30,9 +30,9 @@ $user = currentUser();
     <div class="dropdown">
       <button class="dropbtn">Каталог</button>
       <div class="dropdown-content">
-        <a href="#">Для зала</a>
-        <a href="#">Для бега</a>
-        <a href="#">Для футбола</a>
+        <a href="verx/shtani.php">Штаны</a>
+        <a href="#">Футболки</a>
+        <a href="#">Шорты</a>
       </div>
     </div>
     <form>
@@ -79,8 +79,8 @@ $user = currentUser();
     <button id="koft" class="kofti">
       <div class="koftii">Кофты</div>
     </button>
-    <button id="det" class="deyam">
-      <div class="tdetyam">Детям</div>
+    <button id="shapki" class="shapki">
+      <div class="tdetyam">Шапки</div>
     </button>
     <button id="fit" class="fitnes">
       <div class="fitness">Фитнес</div>

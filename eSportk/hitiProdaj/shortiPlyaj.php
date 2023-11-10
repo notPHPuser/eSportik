@@ -16,6 +16,8 @@
       include ('../verx.php');
     ?>
 
+
+
     <div class="slideshow-container">
       <div class="mySlides fade">
         <div class="numbertext">1/4</div>
@@ -93,14 +95,12 @@
       </div>
 
     </div>
-     <p class="textPohoj" style=" white-space: nowrap;">Похожие товары</p>
-    <div class="pohojShort" id="pohojShort">
-     
+    <div class="pohojShort">
       <button class="FirstPohoj" id="FirstPohoj">
         <img src="shotyPlyajPNG/PohojShort/firstShortPohoj.png" class="PhotoFirstPohoj">
       </button>
-      <button class="SecondPohojShort" id="SecondPohojShort">
-        <img src="shotyPlyajPNG/PohojShort/secondShortPohoj.png" class="PhotoSecondPohoj">
+      <button class="SecondShortjShort" id="SecondShortjShort">
+        <img src="shotyPlyajPNG/PohojShort/secondShortPohoj.png" class="SecondPohojShort">
       </button>
       <button class="ThirdPohojShort" id="ThirdPohojShort">
         <img src="shotyPlyajPNG/PohojShort/thirdShortPohoj.png" class="PhotoThirdPohoj">
@@ -108,8 +108,8 @@
       <button class="FourPohojShort" id="FourPohojShort">
         <img src="shotyPlyajPNG/PohojShort/FourShortPjhoj.png" class="Photo4Pohoj">
       </button>
-    </div>
-
+  
+</div>
     <!-- <div class="niz"></div>
     <button class="kompania" id="kompania">О компании</button> -->
   </body>

@@ -49,5 +49,14 @@ document.getElementById('shortadidas').onclick = function () {
   document.location.href = 'hitiProdaj/shortiPlyaj.php';
 };
 document.getElementById('futadik').onclick = function () {
-  document.location.href = 'hitiProdaj/futMyjAdidas.php';
+  document.location.href = 'hitiProdaj/futAdik/futAdik.php';
+};
+document.getElementById('tolstovka').onclick = function () {
+  document.location.href = 'hitiProdaj/djemper/djemper.php';
+};
+document.getElementById('shapka').onclick = function () {
+  document.location.href = 'hitiProdaj/shapkaDlyaDevochek/shapka.php';
+};
+document.getElementById('kedi').onclick = function () {
+  document.location.href = 'hitiProdaj/kedi/kedi.php';
 };

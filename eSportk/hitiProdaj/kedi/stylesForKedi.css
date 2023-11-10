@@ -438,18 +438,18 @@ dot:hover {
 .nazvanie {
   font-size: 20px;
   height: 10px;
-  transform: translate(190px);
+  transform: translate(183px);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.textForShort {
+.textForKedi {
   font-size: 30px;
   height: 20px;
   white-space: nowrap;
-  transform: translate(130px, 45px);
+  transform: translate(123px, 45px);
 }
 .cena {
   white-space: nowrap;
-  transform: translate(-290px, 200px);
+  transform: translate(-214px, 200px);
   font-size: 30px;
   height: 10px;
 }
@@ -459,7 +459,6 @@ dot:hover {
   height: 10px;
 }
 .opis {
-  font-weight: 500;
   font-size: 30px;
   letter-spacing: 7px;
 }
@@ -506,7 +505,7 @@ dot:hover {
 .harakter {
   height: 10px;
   position: absolute;
-  transform: translate(50px, 800px);
+  transform: translate(50px, 600px);
 }
 .har {
   font-weight: 500;
@@ -658,10 +657,77 @@ dot:hover {
   opacity: 50%;
   transform: translate(0px, -55px);
 }
+.sostav{
+  font-size: 18px;
+  transform: translate(0px,-20px);
+}
+.create-line11 {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, 10px);
+}
+.matVerh{
+    font-size: 18px;
+  color: grey;
+  transform: translate(0, 40px);
+}
+.sintKoj{
+  font-size: 18px;
+  transform: translate(396px, 20px);
+}
+.create-line12 {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, 50px);
+}
+.matPodklad{
+  font-size: 18px;
+  color: grey;
+  transform:translate(0px,80px);
+}
+
+
+.tekstil{
+  font-size: 18px;
+  transform: translate(396px,60px);
+}
+
+.create-line13 {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, 90px);
+}
+
+
+
+.matPodoshv{
+  font-size: 18px;
+  color: grey;
+  transform: translate(0px,120px);
+
+}
+
+.rezina{
+  font-size: 18px;
+  transform: translate(396px,100px);
+}
+
+.create-line14 {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, 130px);
+}
+
+
+
 .niz {
   width: 1520px;
 
-  transform: translate(-10px, 2200px);
+  transform: translate(-10px, 2000px);
   border-top: 300px solid #137c82;
 }
 
@@ -717,11 +783,11 @@ dot:hover {
   border: none;
   border-radius: 0px;
 }
-.pohojShort {
+.pohoDjKedi {
   display: flex;
   position: absolute;
   width: 200px;
-  transform: translate(150px, 1700px);
+  transform: translate(150px, 1900px);
 }
 .PhotoFirstPohoj {
   width: 270px;
@@ -730,9 +796,10 @@ dot:hover {
 .textPohoj {
   font-weight: 500;
   font-size: 30px;
-  transform: translate(0,1700px);
+  transform: translate(150px,1900px);
+  width: 100px;
 }
-.SecondShortjShort{
+.SecondPohoj{
     width: 50px;
   height: 50px;
   transform: translate(235px);
@@ -745,10 +812,10 @@ dot:hover {
   border: none;
   border-radius: 0px;
 }
-.SecondPohojShort{
+.PhotoSecondPohoj{
     width: 270px;
   height: 350px;
-}.ThirdPohojShort{
+}.ThirdPohoj{
     width: 50px;
   height: 50px;
   transform: translate(470px);
@@ -765,7 +832,7 @@ dot:hover {
     width: 270px;
   height: 350px;
 }
-.FourPohojShort{
+.FourPohoj{
     width: 50px;
   height: 50px;
   transform: translate(705px);

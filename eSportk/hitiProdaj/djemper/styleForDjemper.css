@@ -1,6 +1,6 @@
 .line {
   width: 1520px;
-
+  border: none;
   transform: translate(-9px, -8px);
   border-top: 50px solid #81f4fa;
 }
@@ -12,7 +12,7 @@
   font-weight: 900;
   display: flex;
   flex-direction: row;
-
+  border: none;
   justify-content: center;
 }
 .procent {
@@ -133,7 +133,7 @@ input {
 }
 .kartink {
   display: inline-block;
-  transform: translate(190px, -77px);
+  transform: translate(190px, -45px);
 }
 .korz {
   width: 50px;
@@ -193,14 +193,15 @@ input {
   transform: translate(0px, -15px);
 }
 .tprofill {
-  transform: translate(-11px, 30px);
+  transform: translate(-15px, 30px);
 }
 .yce {
   display: inline-block;
   padding: 30px;
+  border: none;
   align-items: baseline;
   justify-content: space-between;
-  transform: translate(0px, -60px);
+  transform: translate(0px, -30px);
 }
 .prforskidki {
   width: 70px;
@@ -296,7 +297,7 @@ input {
 .kofti:hover {
   color: rgb(97, 97, 255);
 }
-.shapki {
+.deyam {
   width: 50px;
   height: 50px;
   font-size: medium;
@@ -344,147 +345,11 @@ input {
 .topiki:hover {
   color: rgb(97, 97, 255);
 }
-.nike {
-  width: 50px;
-  height: 50px;
-  transform: translate(-600px, -250px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
 
-  border: none;
-  border-radius: 0px;
-}
-.nikee {
-  width: 70px;
-  height: 50px;
-}
-.adidas {
-  width: 50px;
-  height: 50px;
-  transform: translate(-530px, -250px);
-  opacity: 1;
-
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.adikk {
-  width: 70px;
-  height: 50px;
-}
-.pumaa {
-  width: 50px;
-  height: 50px;
-  transform: translate(-460px, -220px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.pum {
-  width: 90px;
-  height: 90px;
-}
-.filaa {
-  width: 50px;
-  height: 50px;
-  transform: translate(-380px, -220px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.fil {
-  width: 90px;
-  height: 90px;
-}
-.colum {
-  width: 50px;
-  height: 50px;
-  transform: translate(-300px, -210px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.col {
-  width: 100px;
-  height: 100px;
-}
-.kapp {
-  width: 50px;
-  height: 50px;
-  transform: translate(-210px, -249px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.kappaa {
-  width: 80px;
-  height: 50px;
-}
-.newB {
-  width: 50px;
-  height: 50px;
-  transform: translate(-150px, -223px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.newba {
-  width: 90px;
-  height: 90px;
-}
-.rebook {
-  width: 50px;
-  height: 50px;
-  transform: translate(-70px, -247px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.rebb {
-  width: 80px;
-  height: 50px;
-}
 .underA {
   width: 50px;
   height: 50px;
-  transform: translate(-10px, -233px);
+  transform: translate(-630px, -200px);
   opacity: 1;
   background-color: inherit;
   padding: 0px 0px;
@@ -495,24 +360,354 @@ input {
   border-radius: 0px;
 }
 .under {
-  width: 100px;
-  height: 80px;
+  width: 150px;
+  height: 120px;
 }
-.onetwo {
-  width: 200px;
+.mot {
+  transform: translate(170px, -300px);
+  width: 1145px;
+  height: 350px;
 }
-.twotwo {
-  width: 300px;
-}
-.hiti {
-  font-size: 25px;
-  font-family: 'Aesthetic', arial;
+.slideshow-container {
   transform: translate(170px, -250px);
+  display: flex;
+  position: absolute;
+  max-width: 500px;
 }
-.futa {
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50;
+  display: inline-block;
+  transform: background-color 0.6s ease;
+}
+.active,
+dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.numbertext {
+  transform: translate(0px, 30px);
+}
+.nazvanie {
+  font-size: 20px;
+  height: 10px;
+  transform: translate(190px);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.textForDjtmper {
+  font-size: 30px;
+  height: 20px;
+  white-space: nowrap;
+  transform: translate(80px, 45px);
+}
+.cena {
+  white-space: nowrap;
+  transform: translate(-290px, 200px);
+  font-size: 30px;
+  height: 10px;
+}
+.opisanie {
+  transform: translate(50px, 400px);
+  width: 10px;
+  height: 10px;
+}
+.opis {
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 7px;
+}
+.prod {
+  white-space: nowrap;
+  font-size: 18px;
+}
+.firstJir {
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 20px;
+  transform: translate(60px);
+}
+.firstniz {
+  white-space: nowrap;
+  font-size: 18px;
+  transform: translate(60px);
+}
+.secondJir {
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 20px;
+  transform: translate(60px);
+}
+.secondniz {
+  white-space: nowrap;
+  font-size: 18px;
+  transform: translate(60px);
+}
+.circle1 {
+  background: #456bd9;
+  transform: translate(35px, -198px);
+  border-radius: 50%;
+  height: 6px;
+  width: 6px;
+}
+.circle2 {
+  background: #456bd9;
+  transform: translate(35px, -100px);
+  border-radius: 50%;
+  height: 6px;
+  width: 6px;
+}
+.harakter {
+  height: 10px;
+  position: absolute;
+  transform: translate(50px, 800px);
+}
+.har {
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 7px;
+  height: 10px;
+}
+.razModel {
+  font-weight: 500;
+  font-size: large;
+  transform: translate(0px, 50px);
+}
+.create-line {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, 45px);
+}
+.parModel {
+  transform: translate(0px, 40px);
+  font-size: 18px;
+  color: grey;
+}
+.parModelpar {
+  transform: translate(396px);
+  font-size: 18px;
+}
+.create-line2 {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, 0px);
+}
+.razmeTovar {
+  font-size: 18px;
+  color: grey;
+}
+.razmeTovarRaz {
+  transform: translate(396px, -35px);
+  font-size: 18px;
+}
+.create-line3 {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, -35px);
+}
+.osob {
+  font-weight: 500;
+  font-size: large;
+  transform: translate(0px, -30px);
+}
+.create-line4 {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, -25px);
+}
+.dlina {
+  font-size: 18px;
+  color: grey;
+  transform: translate(0px, -20px);
+}
+.dlinacifr {
+  font-size: 18px;
+  transform: translate(396px, -58px);
+}
+.create-line5 {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, -55px);
+}
+.talia {
+  font-size: 18px;
+  color: grey;
+  transform: translate(0px, -50px);
+}
+.taliasred {
+  font-size: 18px;
+  transform: translate(396px, -90px);
+}
+.create-line6 {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, -80px);
+}
+.showMore {
+  transform: translate(0, -60px);
+  height: 10px;
+}
+.poyac {
+  font-size: 18px;
+  color: grey;
+  transform: translate(0px, -15px);
+}
+#more {
+  display: none;
+}
+.shnyrok {
+  font-size: 18px;
+  transform: translate(396px, -53px);
+}
+.create-line7 {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, -50px);
+}
+.objHar {
+  font-weight: 500;
+  font-size: large;
+  transform: translate(0, -40px);
+}
+.create-line8 {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, -30px);
+}
+.vidSporta {
+  font-size: 18px;
+  transform: translate(0px, -20px);
+  color: grey;
+}
+.sportStyle {
+  font-size: 18px;
+  transform: translate(396px, -60px);
+}
+.create-line9 {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, -45px);
+}
+.pol {
+  font-size: 18px;
+  color: grey;
+  transform: translate(0, -30px);
+}
+.polMyj {
+  font-size: 18px;
+  transform: translate(396px, -70px);
+}
+.create-line10 {
+  width: 770px;
+  border-top: 2px solid grey;
+  opacity: 50%;
+  transform: translate(0px, -55px);
+}
+.niz {
+  width: 1520px;
+
+  transform: translate(-10px, 2200px);
+  border-top: 300px solid #137c82;
+}
+
+.kompania {
+  width: 100px;
+  height: 50px;
+  font-size: medium;
+  transform: translate(170px, 1900px);
+  opacity: 1;
+  background-color: inherit;
+  padding: 0px 0px;
+
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 0px;
+}
+.byuInOurSite {
+  white-space: nowrap;
+  border: inherit;
+  height: 10px;
+  cursor: pointer;
+  background-color: white;
+  font-size: large;
+  transform: translate(-300px, 200px);
+}
+.byuInOurSite:hover {
+  color: blue;
+}
+.byuInYandex {
+  white-space: nowrap;
+  height: 10px;
+  width: 200px;
+  border: inherit;
+  cursor: pointer;
+  background-color: white;
+  font-size: large;
+  transform: translate(-372px, 250px);
+}
+.byuInYandex:hover {
+  color: blue;
+}
+.FirstPohoj {
   width: 50px;
   height: 50px;
-  transform: translate(60px, -233px);
+  transform: translate();
   opacity: 1;
   background-color: inherit;
   padding: 0px 0px;
@@ -522,14 +717,25 @@ input {
   border: none;
   border-radius: 0px;
 }
-.photofut {
+.pohojDjemper {
+  display: flex;
+  position: absolute;
+  width: 200px;
+  transform: translate(150px, 1700px);
+}
+.PhotoFirstPohoj {
   width: 270px;
   height: 350px;
 }
-.shotradik {
-  width: 50px;
+.textPohoj {
+  font-weight: 500;
+  font-size: 30px;
+  transform: translate(0,1700px);
+}
+.SecondPohojDjemper{
+    width: 50px;
   height: 50px;
-  transform: translate(290px, -233px);
+  transform: translate(235px);
   opacity: 1;
   background-color: inherit;
   padding: 0px 0px;
@@ -539,15 +745,30 @@ input {
   border: none;
   border-radius: 0px;
 }
-.photoshortadik {
-  width: 270px;
+.PhotoSecondPohoj{
+    width: 270px;
+  height: 350px;
+}.ThirdPohojDjemper{
+    width: 50px;
+  height: 50px;
+  transform: translate(470px);
+  opacity: 1;
+  background-color: inherit;
+  padding: 0px 0px;
+  z-index: -1;
+  cursor: pointer;
+
+  border: none;
+  border-radius: 0px;
+}
+.PhotoThirdPohoj{
+    width: 270px;
   height: 350px;
 }
-
-.tolstovka {
-  width: 50px;
+.FourPohojDjemper{
+    width: 50px;
   height: 50px;
-  transform: translate(520px, -233px);
+  transform: translate(705px);
   opacity: 1;
   background-color: inherit;
   padding: 0px 0px;
@@ -557,131 +778,7 @@ input {
   border: none;
   border-radius: 0px;
 }
-.phtolst {
-  width: 270px;
-  height: 350px;
-}
-.shapka {
-  width: 50px;
-  height: 50px;
-  transform: translate(750px, -233px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.photoshapka {
-  width: 270px;
-  height: 350px;
-}
-.kedi {
-  width: 50px;
-  height: 50px;
-  transform: translate(980px, -233px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.photokdedi {
-  width: 270px;
-  height: 350px;
-}
-.tovarskid {
-  font-size: 25px;
-  font-family: 'Aesthetic', arial;
-  transform: translate(150px, -190px);
-}
-.obyvSpng {
-  width: 50px;
-  height: 50px;
-  transform: translate(60px, -150px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.photoObyvskid {
-  width: 270px;
-  height: 350px;
-}
-.futWithSkid {
-  width: 50px;
-  height: 50px;
-  transform: translate(290px, -150px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.photofutWithSkid {
-  width: 270px;
-  height: 350px;
-}
-.shtaniWithSkid {
-  width: 50px;
-  height: 50px;
-  transform: translate(520px, -150px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.photoshtaniWithSkid {
-  width: 270px;
-  height: 350px;
-}
-.krosWithSkid {
-  width: 50px;
-  height: 50px;
-  transform: translate(750px, -150px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.photokrosWithSkid {
-  width: 270px;
-  height: 350px;
-}
-.shtaniWomenWithSkid {
-  width: 50px;
-  height: 50px;
-  transform: translate(980px, -150px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.photoshtaniWomenWithSkid {
-  width: 270px;
+.Photo4Pohoj{
+    width: 270px;
   height: 350px;
 }
