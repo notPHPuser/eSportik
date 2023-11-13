@@ -4,45 +4,47 @@
  	<meta charset="UTF-8">
  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
  	<title>Document</title>
- 	<link rel="stylesheet" href="stylesForKedi.css" />
-  <script src="JSforKedi.js" defer></script>
+ 	<link rel="stylesheet" href="styelsForBotinki.css" />
+  <script src="JSforBotinki.js" defer></script>
  </head>
  <body>
  	
 <?php 
-include('../../verxDlyaPvnytriP.php');
+include('../../verxDlyaPvnytriP.php') 
 ?>
+
+
 
     <div class="slideshow-container">
       <div class="mySlides fade">
         <div class="numbertext">1/4</div>
-        <img src="photoKedi/firstKedi.png" style="width: 500px; height: 600px" alt="" />
+        <img src="photoBot/first.png" style="width: 500px; height: 600px" alt="" />
       </div>
       <div class="mySlides fade">
         <div class="numbertext">2/4</div>
-        <img src="photoKedi/secondKedi.png" style="width: 500px; height: 600px" alt="" />
+        <img src="photoBot/second.png" style="width: 500px; height: 600px" alt="" />
       </div>
       <div class="mySlides fade">
         <div class="numbertext">3/4</div>
-        <img src="photoKedi/thirdKedi.png" style="width: 500px; height: 600px" alt="" />
+        <img src="photoBot/third.png" style="width: 500px; height: 600px" alt="" />
       </div>
       <div class="mySlides fade">
         <div class="numbertext">4/4</div>
-        <img src="photoKedi/fourthKedi.png" style="width: 500px; height: 600px" alt="" />
+        <img src="photoBot/fourth.png" style="width: 500px; height: 600px" alt="" />
       </div>
       <a class="prev" onclick="plusSlides(-1)">&#10094</a>
       <a class="next" onclick="plusSlides(1)">&#10095</a>
 
-      <p class="nazvanie">Etonic</p>
-      <p class="textForKedi" style= "white-space: nowrap;">Кеды женские Etonic Open
-      <p class="cena">3 359 ₽</p>
+      <p class="nazvanie">Puma</p>
+      <p class="textForKedi" style= "white-space: nowrap;">Ботинки мужские Puma
+      <p class="cena">7 679 ₽</p>
 
     </div>
     <button class="byuInOurSite" id="byuInOurSite">Купить</button>
     <button class="byuInYandex" id="byuInYandex">Купить на сайте товара</button>
     <div class="opisanie">
       <p class="opis">ОПИСАНИЕ</p>
-      <p class="prod">Кеды Etonic, выполненные в стилистике классических моделей для тенниса, без <br>преувеличений, станут настоящим украшением любой обувной коллекции.</p>
+      <p class="prod">Кеды PUMA DNA настолько универсальны, что ты можешь носить их <br> действительно где захочешь.
 
     </div>
     <div class="harakter">
@@ -104,16 +106,16 @@ include('../../verxDlyaPvnytriP.php');
     <div class="pohoDjKedi" id="pohoDjKedi">
      
       <button class="FirstPohoj" id="FirstPohoj">
-        <img src="pohojKedi/first.png" class="PhotoFirstPohoj">
+        <img src="pohojBot/first.png" class="PhotoFirstPohoj">
       </button>
       <button class="SecondPohoj" id="SecondPohoj">
-        <img src="pohojKedi/second.png" class="PhotoSecondPohoj">
+        <img src="pohojBot/second.png" class="PhotoSecondPohoj">
       </button>
       <button class="ThirdPohoj" id="ThirdPohoj">
-        <img src="pohojKedi/third.png" class="PhotoThirdPohoj">
+        <img src="pohojBot/third.png" class="PhotoThirdPohoj">
       </button>
       <button class="FourPohoj" id="FourPohoj">
-        <img src="pohojKedi/fourth.png" class="Photo4Pohoj">
+        <img src="pohojBot/fourth.png" class="Photo4Pohoj">
       </button>
     </div>
 <!-- 

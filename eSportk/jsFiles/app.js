@@ -60,3 +60,24 @@ document.getElementById('shapka').onclick = function () {
 document.getElementById('kedi').onclick = function () {
   document.location.href = 'hitiProdaj/kedi/kedi.php';
 };
+document.getElementById('obyvSpng').onclick = function () {
+  document.location.href = 'tovarWithSkid/botinki/botinki.php';
+};
+
+document.getElementById('futWithSkid').onclick = function () {
+  document.location.href = 'tovarWithSkid/futWithSkid/futWithSkid.php';
+};
+
+document.getElementById('shtaniWithSkid').onclick = function () {
+  document.location.href = 'tovarWithSkid/shtaniWithSkid/shtaniWithSkid.php';
+};
+
+
+document.getElementById('krosWithSkid').onclick = function () {
+  document.location.href = 'tovarWithSkid/krosWithSkid/krosWithSkid.php';
+};
+
+
+
+
+

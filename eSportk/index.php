@@ -145,7 +145,7 @@ $user = currentUser();
     <img src="png/futWithSkid.png" class="photofutWithSkid" />
   </button>
   <button id="shtaniWithSkid" class="shtaniWithSkid">
-    <img src="png/shtaniWithSkid.png" class="photoshtaniWithSkid" />
+    <img src="png/shtaniWithSkidd.png" class="photoshtaniWithSkid" />
   </button>
   <button id="krosWithSkid" class="krosWithSkid">
     <img src="png/krosWithSkid.png" class="photokrosWithSkid" />

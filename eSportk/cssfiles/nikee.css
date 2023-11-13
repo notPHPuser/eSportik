@@ -444,6 +444,8 @@ input {
 .second {
   display: flex;
   position: absolute;
+  width: 10px;
+
 }
 .photoOdejdaNike {
   width: 370px;
