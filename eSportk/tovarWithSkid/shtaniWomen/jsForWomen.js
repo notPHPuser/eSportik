@@ -1,10 +1,22 @@
+
+
+
+document.getElementById('esport').onclick = function() {
+	document.location.href	= '../../index.php'
+}
+
+
+
 document.getElementById('byuInYandex').onclick = function () {
   location.href =
-    'https://www.sportmaster.ru/product/30258270299/';
+    'https://www.sportmaster.ru/product/29256290299/?utm_referrer=https%3A%2F%2Fyandex.ru%2Fimages%2Fsearch%3Fcbir_id%3D4828928%252F4GLGmGaorVwfLoagrSEj9A1317%26rpt%3Dimageview%26url%3Dhttps%253A%252F%252Favatars.mds.yandex.net%252Fget-images-cbir%252F4828928%252F4GLGmGaorVwfLoagrSEj9A1317%252Forig';
 };
-document.getElementById('esport').onclick = function () {
-  document.location.href = '../../index.php';
-};
+
+
+
+
+
+
 
 
 var slideindex = 1;
@@ -37,5 +49,3 @@ function showSlides(n) {
   slides[slideindex - 1].style.display = 'block';
   dots[slideindex - 1].className += 'active';
 }
-
-

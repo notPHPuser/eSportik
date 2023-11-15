@@ -445,11 +445,11 @@ dot:hover {
   font-size: 30px;
   height: 20px;
   white-space: nowrap;
-  transform: translate(123px, 45px);
+  transform: translate(115px, 45px);
 }
 .cena {
   white-space: nowrap;
-  transform: translate(-214px, 200px);
+  transform: translate(-290px, 200px);
   font-size: 30px;
   height: 10px;
 }

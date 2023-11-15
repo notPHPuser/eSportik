@@ -78,6 +78,10 @@ document.getElementById('krosWithSkid').onclick = function () {
 };
 
 
+document.getElementById('shtaniWomenWithSkid').onclick = function () {
+  document.location.href = 'tovarWithSkid/shtaniWomen/shtaniWomen.php';
+};
+
 
 
 

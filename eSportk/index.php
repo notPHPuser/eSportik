@@ -121,7 +121,7 @@ $user = currentUser();
     <p class="hiti">ХИТЫ ПРОДАЖ</p>
   </div>
   <button id="futadik" class="futa">
-    <img src="png/futadidas.png" class="photofut" />
+    <img src="png/adikkk.png" class="photofut" />
   </button>
   <button id="shortadidas" class="shotradik">
     <img src="png/shotradidas.png" class="photoshortadik" />

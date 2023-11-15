@@ -133,7 +133,7 @@ input {
 }
 .kartink {
   display: inline-block;
-  transform: translate(190px, -50px);
+  transform: translate(190px, -45px);
 }
 .korz {
   width: 50px;
@@ -345,10 +345,11 @@ input {
 .topiki:hover {
   color: rgb(97, 97, 255);
 }
-.nike {
+
+.underA {
   width: 50px;
   height: 50px;
-  transform: translate(-620px, -200px);
+  transform: translate(-630px, -200px);
   opacity: 1;
   background-color: inherit;
   padding: 0px 0px;
@@ -358,195 +359,12 @@ input {
   border: none;
   border-radius: 0px;
 }
-.adidas {
-  width: 50px;
-  height: 50px;
-  transform: translate(-970px, -600px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.adikk {
-  width: 105px;
-  height: 80px;
-}
-.fotoMenAdik {
-  width: 370px;
-  height: 450px;
-}
-.forMen {
-  width: 50px;
-  height: 100px;
-  transform: translate(170px, -200px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.first {
-  display: flex;
-  position: absolute;
-  height: 10px;
-}
-.tForMenAdik {
-  color: white;
-  transform: translate(330px, 200px);
-  font-size: 20px;
-}
-.fotoWomenAdik {
-  width: 370px;
-  height: 450px;
-}
-.ForWowenAdik {
-  width: 50px;
-  height: 50px;
-  transform: translate(370px, -200px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.tForWomenAdik {
-  color: white;
-  font-size: 20px;
-  transform: translate(500px, 200px);
-}
-.fotoChildrenAdik {
-  width: 370px;
-  height: 450px;
-}
-.forChildrenAdik {
-  width: 50px;
-  height: 50px;
-  transform: translate(570px, -200px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-
-  border: none;
-  border-radius: 0px;
-}
-.tForChildrenAdik {
-  color: white;
-  font-size: 20px;
-  transform: translate(740px, 200px);
-}
-.second {
-  display: flex;
-  position: absolute;
-  height: 2px;
-  width: 2px;
-}
-.photoOdejdaAdik {
-  width: 370px;
-  height: 450px;
-}
-.odejdaAdik {
-  width: 50px;
-  height: 50px;
-
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-  transform: translate(170px, 300px);
-  border: none;
-  border-radius: 0px;
-}
-.tOdejda {
-  color: white;
-  font-size: 20px;
-  transform: translate(370px, 680px);
-}
-.photoBootsAdik {
-  width: 370px;
-  height: 450px;
-}
-.bootsAdik {
-  width: 50px;
-  height: 50px;
-
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-  transform: translate(423px, 300px);
-  border: none;
-  border-radius: 0px;
-}
-.tBootsAdik {
-  color: white;
-  font-size: 20px;
-  transform: translate(650px, 680px);
-}
-.photoAksAdik {
-  width: 370px;
-  height: 450px;
-}
-.aksAdik {
-  width: 50px;
-  height: 50px;
-
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-  z-index: -1;
-  cursor: pointer;
-  transform: translate(700px, 300px);
-  border: none;
-  border-radius: 0px;
-}
-.tAskAdik {
-  color: white;
-  font-size: 20px;
-  transform: translate(870px, 680px);
-}
-body {
-  height: 1px;
-}
-.nado {
-  transform: translate(0px, 20px);
+.under {
+  width: 150px;
+  height: 120px;
 }
 .mot {
-  transform: translate(170px, -200px);
+  transform: translate(170px, -300px);
   width: 1145px;
   height: 350px;
-}
-.niz {
-  width: 1520px;
-
-  transform: translate(-10px, 800px);
-  border-top: 300px solid #137c82;
-}
-
-.kompania {
-  width: 100px;
-  height: 50px;
-  font-size: medium;
-  transform: translate(170px, 550px);
-  opacity: 1;
-  background-color: inherit;
-  padding: 0px 0px;
-
-  cursor: pointer;
-  color: white;
-  border: none;
-  border-radius: 0px;
 }
