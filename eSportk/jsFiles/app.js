@@ -72,15 +72,18 @@ document.getElementById('shtaniWithSkid').onclick = function () {
   document.location.href = 'tovarWithSkid/shtaniWithSkid/shtaniWithSkid.php';
 };
 
-
 document.getElementById('krosWithSkid').onclick = function () {
   document.location.href = 'tovarWithSkid/krosWithSkid/krosWithSkid.php';
 };
 
-
 document.getElementById('shtaniWomenWithSkid').onclick = function () {
   document.location.href = 'tovarWithSkid/shtaniWomen/shtaniWomen.php';
 };
+
+document.getElementById('futbol').onclick = function () {
+  document.location.href = 'verx/futbolki/futbolki.php';
+};
+
 
 
 
