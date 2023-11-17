@@ -60,7 +60,7 @@
     <div class="koftii">Кофты</div>
   </button>
   <button id="det" class="deyam">
-    <div class="tdetyam">Детям</div>
+    <div class="tdetyam">Шапки</div>
   </button>
   <button id="fit" class="fitnes">
     <div class="fitness">Фитнес</div>

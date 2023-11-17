@@ -9,7 +9,9 @@ document.getElementById('esport').onclick = function () {
   document.location.href = '../../index.php';
 };
 
-
+document.getElementById('FirstPohoj').onclick = function () {
+  document.location.href = 'pohoj/kedii.php';
+};
 
 
 

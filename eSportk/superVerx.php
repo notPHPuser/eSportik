@@ -23,19 +23,19 @@
 <div class="kartink">
   <button class="dost">
     <div class="dostaaa">Доставка</div>
-    <img src="../../png/dostavka.png" class="img" />
+    <img src="../../../png/dostavka.png" class="img" />
   </button>
   <button id="kor" class="korz">
     <div class="tkorz">Корзина</div>
-    <img src="../../png/korzina.png" class="pkorz" />
+    <img src="../../../png/korzina.png" class="pkorz" />
   </button>
   <button class="zakaz">
     <div class="tzakaz">Заказы</div>
-    <img src="../../png/zakazi.png" class="pzakaz" />
+    <img src="../../../png/zakazi.png" class="pzakaz" />
   </button>
   <button class="profill">
     <div class="tprofill">Профиль</div>
-    <img src="../../png/profil.png" class="pprofill" />
+    <img src="../../../png/profil.png" class="pprofill" />
   </button>
 </div>
 <div class="yce">
@@ -69,4 +69,4 @@
     <div class="topikii">Топики</div>
   </button>
 </div>
-<img src="../../adikPNG/mot.png" class="mot" />
+<img src="../../../adikPNG/mot.png" class="mot" />

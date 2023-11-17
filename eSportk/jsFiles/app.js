@@ -84,7 +84,29 @@ document.getElementById('futbol').onclick = function () {
   document.location.href = 'verx/futbolki/futbolki.php';
 };
 
+document.getElementById('short').onclick = function () {
+  document.location.href = 'verx/shorti/shorti.php';
+};
 
+document.getElementById('koft').onclick = function () {
+  document.location.href = 'verx/kofti/kofti.php';
+};
+
+
+
+document.getElementById('shapki').onclick = function () {
+  document.location.href = 'verx/shapki/shapki.php';
+};
+
+document.getElementById('fit').onclick = function () {
+  document.location.href = 'verx/fitnes/fitnes.php';
+};
+
+
+
+document.getElementById('top').onclick = function () {
+  document.location.href = 'verx/topiki/topiki.php';
+};
 
 
 
